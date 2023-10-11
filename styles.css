@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(227, 227, 228);
+    overflow: hidden;
+    font-family: Garamond, serif;
+}
+
+.container {
+    height: calc(75vh - 2vh);
+    width: calc(65vw - 2vw);
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 6px 12px -2px, rgba(0, 0, 0, 0.3) 0 3px 7px -3px;
+    overflow: auto;
+}
+
+h1 {
+    text-align: center;
+    background-color: #e1e1e3;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.add_taskList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#taskList {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+
+input[type="text"] {
+    text-align: center;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.dell_all {
+    display: flex;
+    justify-content: center;
+}
+
+.task.checked {
+    color: red; /* Колір для закресленого тексту */
+    text-decoration: line-through; /* Закреслення тексту */
+}

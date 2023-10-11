@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TODO List</title>
+</head>
+<body>
+<div class="container">
+    <h1>My Todo App</h1>
+    <div class="score">
+        <div>Item: <span id="itemCount">0</span></div>
+        <div>Unchecked: <span id="uncheckedCount">0</span></div>
+    </div>
+    <div class="add_taskList">
+        <label for="taskInput"><input type="text" size="40%" id="taskInput" placeholder="Нове завдання"></label>
+        <button onclick="addTask()">Додати</button>
+    </div>
+    <ul id="taskList"></ul>
+    <div class="dell_all">
+        <button onclick="deleteAll()">Видалити всі пункти</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
